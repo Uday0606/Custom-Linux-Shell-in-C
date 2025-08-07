@@ -1,2 +1,32 @@
 # Custom-Linux-Shell-in-C
-This project is a basic implementation of a custom shell (like bash) written in C. It mimics  the behavior of a Linux command-line interface by supporting:  1. Command execution (e.g., ls, pwd, date) 2. Built-in commands (cd, exit, history) 3. Background process execution (&amp;) 4. History tracking of commands 
+
+This project is a basic implementation of a custom shell (like bash) written in C. It mimics the behavior of a Linux command-line interface and supports multiple basic shell features.
+
+-----
+
+## Features:
+
+ -Command execution (e.g, ls, pwd, date, etc.)  
+ -Built-in commands: cd, exit, history  
+ -Background process execution using &  
+ -History tracking of executed commands  
+ - Simple command parsing using fork(), execvp() and wait()
+ 
+-----
+
+## File Information
+
+- custom_linux_shell.c – Main source file containing shell logic
+- README.md – Project documentation (you’re reading it!)
+
+ -----
+
+ ## How to Compile and Run:
+ 
+Make sure you're on a Linux-based system or using WSL.
+
+bash
+gcc custom_linux_shell.c -o myshell
+./myshell
+
+
