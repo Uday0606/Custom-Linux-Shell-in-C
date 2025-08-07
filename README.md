@@ -29,4 +29,8 @@ bash
 gcc custom_linux_shell.c -o myshell
 ./myshell
 
+## output
+![demo_ouput](https://github.com/user-attachments/assets/35b9109c-9a8f-4e6e-9c99-30ad2208056a)
+
+
 
